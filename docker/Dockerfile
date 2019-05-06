@@ -102,4 +102,4 @@ EXPOSE 8080
 CMD sh $MUDROD_HOME/docker/run_services.sh
 
 # Set entry point to the Mudrod executable
-ENTRYPOINT ["/usr/local/mudrod/bin/mudrod"]
+# ENTRYPOINT ["/usr/local/mudrod/bin/mudrod"]
