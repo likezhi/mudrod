@@ -87,7 +87,7 @@ EXPOSE 9300
 # Mudrod Master Branch  #
 #########################
 WORKDIR /usr/local
-RUN git clone https://github.com/mudrod/mudrod.git
+RUN git clone https://github.com/likezhi/mudrod.git
 ENV MUDROD_HOME /usr/local/mudrod 
 WORKDIR $MUDROD_HOME
 # So you can call 'mudrod'
